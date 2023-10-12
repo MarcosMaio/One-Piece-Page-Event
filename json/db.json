@@ -1,0 +1,55 @@
+[
+    {      
+        "flag": "/assets/Luffy - Flag.svg",
+        "id": 1
+    },
+    {      
+        "flag": "/assets/Zoro - flag.svg",
+        "id": 2
+    }
+    ,
+    {      
+        "flag": "/assets/Nami - flag.svg",
+        "id": 3
+    }
+    ,
+    {      
+        "flag": "/assets/Usopp - flag.svg",
+        "id": 4
+    }
+    ,
+    {      
+        "flag": "assets/Sanji - flag.svg",
+        "id": 5
+    }
+    ,
+    {      
+        "flag": "assets/Chopper - flag.svg",
+        "id": 6
+    }
+    ,
+    {      
+        "flag": "assets/Vivi - flag.svg",
+        "id": 7
+    }
+    ,
+    {      
+        "flag": "assets/Robin - flag.svg",
+        "id": 8
+    }
+    ,
+    {      
+        "flag": "assets/Franky - flag.svg",
+        "id": 9
+    }
+    ,
+    {      
+        "flag": "assets/Brook - flag.svg",
+        "id": 10
+    }
+    ,
+    {      
+        "flag": "assets/Jinbe - flag.svg",
+        "id": 11
+    }
+]

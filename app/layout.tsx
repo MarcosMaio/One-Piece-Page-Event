@@ -1,5 +1,8 @@
-import './globals.css'
+import Page from '@/pages/page'
+import '../styles/globals.css'
+import '../styles/tailwind.css'
 import type { Metadata } from 'next'
+import Head from 'next/head';
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -16,7 +19,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <Head>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        />
+      </Head>
+      <body className={inter.className}>
+        <Page />
+      </body>
     </html>
   )
 }
