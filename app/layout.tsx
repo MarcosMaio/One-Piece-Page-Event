@@ -3,7 +3,6 @@ import '../styles/tailwind.css'
 import type { Metadata } from 'next'
 import Head from 'next/head';
 import { Inter } from 'next/font/google'
-import Page from '@/pages/Page';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -27,7 +26,7 @@ export default function RootLayout({
         />
       </Head>
       <body className={inter.className}>
-          <Page />
+        {children}
       </body>
     </html>
   )
