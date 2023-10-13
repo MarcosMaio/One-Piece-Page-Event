@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Flags from '../../../json/db.json'
 import { useSelectedCharacter } from '@/src/context/SelectedCharacter';
 import { useCharacters } from '@/src/context/Characters';
+import Image from 'next/image';
 
 
 export default function SideBar() {
@@ -27,7 +28,7 @@ export default function SideBar() {
                 <ul className='flex flex-col justify-center items-center'>
                     {Flags.map((flag) => (
                         <li key={flag.id} onClick={() => handleImageClick(flag.id)}>
-                            <img className='w-customFlag mt-3 mb-3 cursor-pointer' src={flag.flag} alt={''} />
+                            <Image className='mt-3 mb-3 cursor-pointer' src={flag.flag} alt={''}  width='80' height='80' />
                         </li>
                     ))}
                 </ul>
