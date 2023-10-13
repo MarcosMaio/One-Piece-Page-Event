@@ -1,9 +1,9 @@
-import Page from '@/pages/page'
 import '../styles/globals.css'
 import '../styles/tailwind.css'
 import type { Metadata } from 'next'
 import Head from 'next/head';
 import { Inter } from 'next/font/google'
+import Page from '@/src/pages/page';
 
 const inter = Inter({ subsets: ['latin'] })
 
